@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sri Ganesh Jewellery Ai Generator</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header>
+        <h1>Generate Your Own Custom Jewellery - Using Ai</h1>
+    </header>
+    <section class="dropdown">
+        <label for="jewellery">Choose Jewellery:</label>
+        <select id="jewellery" name="jewellery">
+            <option value="Ring">Ring</option>
+            <option value="Earring">Earring</option>
+        </select>
+    </section>
+    <section class="dropdown_2">
+        <label for="gold">Type of Gold:</label>
+        <select id="gold" name="gold">
+            <option value="18 Karat White Gold">18 Karat White Gold</option>
+            <option value="18 Karat Yellow Gold">18 Karat Yellow Gold</option>
+        </select>
+    </section>
+    <section class="dropdown_3">
+        <label for="gemstone">Type of Gemstone:</label>
+        <select id="gemstone" name="gemstone">
+            <option value="Ruby">Ruby</option>
+            <option value="Diamond">Diamond</option>
+        </select>
+    </section>
+    <section class="bottom-section">
+        <div class="input-container">
+            <input id="user-prompt" placeholder="Enter your prompt here"/>
+            <div id="submit-icon">create</div>
+        </div> 
+    </section>
+    <section class="images-section"></section>
+    <script src="app.js"></script>
+</body>
+</html>

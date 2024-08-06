@@ -1,0 +1,124 @@
+body {
+    margin: 0; 
+    padding: 0;
+    background-color: hwb(0 0% 54%);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+ header {
+    color: white;
+    margin: 0;
+    height: 100px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+#options{
+    font-size: 20px;
+    background-color: hwb(0 0% 54%);
+    color: white;
+    justify-content: space-between;
+    border-color:white ;
+    padding-left:30px;
+}
+.dropdown {
+    margin: 0; /* Adjust margin if needed */
+    color: white;
+    display: flex;
+    padding-left: 30px;
+    justify-content:left;
+    font-size: 25px;
+    
+}
+.dropdown_2 {
+    margin: 0; /* Adjust margin if needed */
+    padding: 0;
+    color: white;
+    display: flex;
+    padding-left: 30px;
+    justify-content: left;
+    font-size: 25px;
+    
+}
+.dropdown_3 {
+    margin: 0; /* Adjust margin if needed */
+    padding: 0;
+    color: white;
+    display: flex;
+    padding-left: 30px;
+    justify-content: left;
+    font-size: 25px;
+    
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    height: 100px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 620px;
+    position: relative;
+}
+
+input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+    box-sizing: border-box;
+}
+
+#submit-icon {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 10px;
+    width: 80px;
+    text-align: center;
+    right: 30px;
+    border: solid;
+    border-width: 2px;
+    border-color: hwb(0 0% 54%);
+    cursor: pointer;
+}
+
+.images-section {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.image-container {
+    width: 48%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+}
+
+.image-container img {
+    width: 100%;
+}
